@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders - ShopEasy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-brand">🛒 ShopEasy</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart <span id="cart-count">0</span></a>
+            <a href="orders.html">My Orders</a>
+            <a href="login.html" id="login-btn">Login</a>
+            <a href="#" id="logout-btn" style="display:none">Logout</a>
+        </div>
+    </nav>
+
+    <!-- ORDERS SECTION -->
+    <div class="orders-container">
+        <h2>My Orders</h2>
+        <div id="orders-list">
+            <!-- Orders loaded here -->
+        </div>
+    </div>
+
+    <script src="js/orders.js"></script>
+</body>
+</html>
