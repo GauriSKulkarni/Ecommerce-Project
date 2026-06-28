@@ -1,4 +1,4 @@
- const API = 'http://localhost:5000/api';
+ const API ='https://ecommerce-project-j8z0.onrender.com/api';
 
 // LOAD PRODUCTS
 const loadProducts = async () => {
